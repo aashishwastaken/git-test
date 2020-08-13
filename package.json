@@ -1,0 +1,28 @@
+{
+  "name": "git1",
+  "version": "1.0.0",
+  "description": "my first git project",
+  "main": "index.js",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "git1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aashishwastaken/git-test.git"
+  },
+  "keywords": [
+    "git",
+    "learn"
+  ],
+  "author": "aaashish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aashishwastaken/git-test/issues"
+  },
+  "homepage": "https://github.com/aashishwastaken/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
